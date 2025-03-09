@@ -273,6 +273,9 @@ var listCountries = ['United Kingdom', 'USA', 'Germany', 'France', 'Italy', 'USA
 											 <option value="forex">FOREX</option>
 											 <option value="btc">BITCOIN</option>
 											 <option value="shares">SHARES/STOCKS</option>
+											 <option value="Affiliate Marketing">Affiliate Marketing</option>
+											 <option value="DROPSHIPPING">DROPSHIPPING</option>
+											 <option value="ECOMMERCE">ECOMMERCE</option>
 									 
 											</select>
 											<span class="asset error"></span>
@@ -592,7 +595,7 @@ var listCountries = ['United Kingdom', 'USA', 'Germany', 'France', 'Italy', 'USA
 		  try {
 			const res = await fetch('/register', { 
 			  method: 'POST', 
-			  body: JSON.stringify({title, username, firstname,lastname,currency, email, country,tel, password }),
+			  body: JSON.stringify({title, username, firstname,lastname,currency,asset, email, country,tel, password }),
 			  headers: {'Content-Type': 'application/json'}
 			});
 			const data = await res.json();

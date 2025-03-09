@@ -58,7 +58,7 @@
                         <div class="form-group boxed">
                             <div class="input-wrapper">
                                 <label class="label" for="text4b" style="color:#cecece;" >Amount ($)</label>
-                                <input type="text" class="form-control" id="amount" value="0" disabled>
+                                <input type="text" class="form-control" id="amount">
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
                                 </i>
@@ -79,12 +79,12 @@
                         </div>
                         <div class="mb-1" id="field1" style="display: None;">
                         <div style="color:#cecece;">Bitcoin barcode</div>
-                        <img src="wp-admin/uploads/bitcoin_2fc7dd2429b2753aef613810418e2479.jpeg" alt="Btc Barcode" class="imaged w140">
+                        <img src="wp-admin/uploads/btc.jpg" alt="Btc Barcode" class="imaged w140">
                         </div>
                         <div class="form-group boxed" id="field12" style="display: None;">
                             <div class="input-wrapper">
                                 <label class="label" for="text4b" style="color:#cecece;">Bitcoin Address</label>
-                                <input type="text" class="form-control" id="myInput" value="15iXh4o88vSpbRPmGVNoru1xiYZ5XVdAiD" disabled><br>
+                                <input type="text" class="form-control" id="myInput" value="bc1q6rgphjlz8fk937kajayc67ljhv5m5mv6wznf0s" disabled><br>
                                 
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
@@ -93,12 +93,12 @@
                         </div>
                         <div class="mb-1" id="field2" style="display: None;">
                         <div style="color:#cecece;">Ethereum Barcode</div>
-                        <img src="wp-admin/uploads/ethereum_3d274e42b00b4d8a531089d52ef28a1f.jpeg" alt="Ethereum Barcode" class="imaged w140">
+                        <img src="wp-admin/uploads/ethe.jpg" alt="Ethereum Barcode" class="imaged w140">
                         </div>
                         <div class="form-group boxed" id="field13" style="display: None;">
                             <div class="input-wrapper">
                                 <label class="label" for="text4b" style="color:#cecece;">Ethereum Address</label>
-                                <input type="text" class="form-control" id="myInput2" value="0x63cd796ce90f452f7a261ec3e0f7d0590413b718" disabled><br>
+                                <input type="text" class="form-control" id="myInput2" value="0x234436528133C23751f7950B81bAc2FAB361093A" disabled><br>
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
                                 </i>
@@ -106,12 +106,12 @@
                         </div>
                         <div class="mb-1" id="field3" style="display: None;">
                         <div style="color:#cecece;" style="color:#cecece;">LiteCoin barcode</div>
-                        <img src="wp-admin/uploads/litecoin_527c24c1ca84f570baebcc1d8c7456e6.jpeg" alt="LiteCoin Barcode" class="imaged w140">
+                        <img src="wp-admin/uploads/usdt.jpg" alt="LiteCoin Barcode" class="imaged w140">
                         </div>
                         <div class="form-group boxed" id="field14" style="display: None;">
                             <div class="input-wrapper">
                                 <label class="label" for="text4b" style="color:#cecece;">LiteCoin Address</label>
-                                <input type="text" class="form-control" id="myInput5" value="LiF8LkL8qNwgHHXFufPM8KNUCQZVx3mCBo" disabled><br>
+                                <input type="text" class="form-control" id="myInput5" value="0x234436528133C23751f7950B81bAc2FAB361093A" disabled><br>
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
                                 </i>
@@ -124,7 +124,7 @@
                         <div class="form-group boxed" id="field15" style="display: None;">
                             <div class="input-wrapper">
                                 <label class="label" for="text4b" style="color:#cecece;">BitcoinCash Address</label>
-                                <input type="text" class="form-control" id="myInput4" value="1BAvq12J6TkwabtTvPWaDa2re5FwSagEDt" disabled><br>
+                                <input type="text" class="form-control" id="myInput4" value="#" disabled><br>
                                 <i class="clear-input">
                                     <ion-icon name="close-circle"></ion-icon>
                                 </i>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="in">
                             <strong style="color:#f2f2f2;">zoe chin</strong>
-                            <div class="text-muted" style="color:#cecece;"> Account Plan: Basic</div>
+                            <div class="text-muted" style="color:#cecece;"> Account Plan: <%=user.asset%></div>
                         </div>
                         <a href="#" class="btn btn-link btn-icon sidebar-close" data-bs-dismiss="modal">
                             <ion-icon name="close-outline"></ion-icon>
