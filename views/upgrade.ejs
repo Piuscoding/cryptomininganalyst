@@ -73,7 +73,7 @@
                                     <option value="Bitcoin">Bitcoin</option>
                                     <option value="Ethereum">Ethereum</option>
                                     <option value="Litecoin">usdt</option>
-                                    <option value="BitcoinCash">BitcoinCash</option>
+                                    <!-- <option value="BitcoinCash">BitcoinCash</option> -->
                                                 <!--<option value="Paypal">Paypal</option>-->
                                 </select>
                             </div>
@@ -527,7 +527,7 @@
     <script src="assets/js/base.js"></script>-->
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#method").change(function() {
+            $("#withdrawalMethod").change(function() {
                 if ($(this).val() == "Bitcoin") {
                     $("#field1").fadeIn();
                     $("#field2").hide();

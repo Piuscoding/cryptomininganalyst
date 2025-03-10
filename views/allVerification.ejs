@@ -57,8 +57,8 @@
               <thead>
                 <tr>
                   <th scope="col">S/N</th>
-                  <th scope="col">Verification ID</th>
-                  <th scope="col">Users name</th>
+                  <th scope="col">user name</th>
+                  <th scope="col">email</th>
                   <th scope="col">Status</th>
                   <th scope="col" class="text-end">Action</th>
                 </tr>
@@ -67,10 +67,9 @@
               <tbody>
                 <%  verify.forEach((element, index) => {  %>
                   <tr class="align-middle">
-                    <td><h5 class="text-white"><%=index %></h5></td>
-                    <td><h5 class="text-white"><%= element.username %></h5></td>
-                    <td><h5 class="text-white"><%= element.fullname %></h5></td>
-                    <td><h5 class="text-white"> <%=element.gender %></h5></td>
+                    <td><h5 class="text-dark"><%=index %></h5></td>
+                    <td><h5 class="text-dark"><%= element.fullname %></h5></td>
+                    <td><h5 class="text-dark"><%= element.email %></h5></td>
                     <!-- <td><img src="/IMG_UPLOADSelement.image%>" alt="Image" style="width: 800px; height: fit-content;" ></td> -->
                     <td class="text-end">
                       <div class="d-flex flex-row justify-content-end gap-2">
